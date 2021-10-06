@@ -12,7 +12,7 @@ steps:
         from_secret: DOCKER_HUB_PASSWORD
       repo: nunz9684/client-farm-web
       tag: latest
-    file: Dockerfile
+    file: clientFarmWeb/dockerfile
     when:
       branch: [master]
       event: [push]
